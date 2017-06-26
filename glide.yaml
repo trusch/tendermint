@@ -26,7 +26,7 @@ import:
   subpackages:
   - data
 - package: github.com/tendermint/tmlibs
-  version: ~0.2.2
+  version: 4e955434aa8b901b30977878c3c6991254b30fad
   subpackages:
   - autofile
   - cli
@@ -37,6 +37,7 @@ import:
   - flowrate
   - log
   - merkle
+  - pubsub
 - package: golang.org/x/crypto
   subpackages:
   - nacl/box

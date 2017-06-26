@@ -1,5 +1,5 @@
-hash: 41581813ff97225a7feb86b5accb0fe4acb3e198b64592d7452240e9473c479f
-updated: 2017-08-03T19:17:16.410522485Z
+hash: baeaa7b292ec4ce4dbbc61557ca3b38c729125f7a2cfb2536ccf2a746cb71710
+updated: 2017-09-19T23:36:36.472663638Z
 imports:
 - name: github.com/btcsuite/btcd
   version: b8df516b4b267acf2de46be593a9d948d1d2c420
@@ -19,6 +19,12 @@ imports:
   - log/term
 - name: github.com/go-logfmt/logfmt
   version: 390ab7935ee28ec6b286364bba9b4dd6410cb3d5
+- name: github.com/go-playground/locales
+  version: 1e5f1161c6416a5ff48840eb8724a394e48cc534
+  subpackages:
+  - currency
+- name: github.com/go-playground/universal-translator
+  version: 71201497bace774495daed26a3874fd339e0b538
 - name: github.com/go-stack/stack
   version: 100eb0c0a9c5b306ca2fb4f165df21d80ada4b82
 - name: github.com/gogo/protobuf
@@ -120,7 +126,7 @@ imports:
   - iavl
   - testutil
 - name: github.com/tendermint/tmlibs
-  version: 7ce4da1eee6004d627e780c8fe91e96d9b99e459
+  version: 4e955434aa8b901b30977878c3c6991254b30fad
   subpackages:
   - autofile
   - cli
@@ -131,6 +137,8 @@ imports:
   - flowrate
   - log
   - merkle
+  - pubsub
+  - pubsub/query
   - test
 - name: golang.org/x/crypto
   version: c7af5bf2638a1164f2eb5467c39c6cffbd13a02e
@@ -184,6 +192,8 @@ imports:
   - status
   - tap
   - transport
+- name: gopkg.in/go-playground/validator.v9
+  version: a021b2ec9a8a8bb970f3f15bc42617cb520e8a64
 - name: gopkg.in/yaml.v2
   version: cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b
 testImports:
